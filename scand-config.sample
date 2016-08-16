@@ -1,0 +1,17 @@
+# Sample scand configuration file. Copy it to ~/.scand and edit it to suit your
+# environment.
+
+# Space-separated list of email addresses to create endpoints for.
+EndpointEmails : sample1@sample.com sample2@sample.com sample3@sample.com
+
+# Message configuration.
+MessageSubject : Scanned file.
+MessageBody : See attached file.
+MessageFromName : My Samsung Scanner
+MessageFromAddress : no-reply@mydomain.com
+
+# Smtp server configuration.
+SmtpAuthUser: user
+SmtpAuthPassword: password
+SmtpServerPort: smtp.mydomain.com:587
+
