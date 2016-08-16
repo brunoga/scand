@@ -9,9 +9,9 @@ import (
 	"sync"
 	"syscall"
 
-	"bga/scand/config"
-	"bga/scand/endpoint"
-	"bga/scand/scanner"
+	"github.com/brunoga/scand/config"
+	"github.com/brunoga/scand/endpoint"
+	"github.com/brunoga/scand/scanner"
 )
 
 var (

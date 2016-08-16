@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"bga/scand/config"
-	"bga/scand/scanner"
+	"github.com/brunoga/scand/config"
+	"github.com/brunoga/scand/scanner"
 )
 
 type endpoint struct {
